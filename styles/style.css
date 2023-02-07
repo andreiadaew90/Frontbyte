@@ -2,7 +2,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+    src: url('../fonts/Roboto/Roboto-Black.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+    src: url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -99,17 +99,14 @@ body {
 .button {
     color: #f4f4f7;
     background: none;
-    border: none;
+    border: 1px solid transparent;
     padding: 10px;
     border-radius: 50%;
 }
 
 .button:hover {
     border: 1px solid #ffffff;
-}
-
-.button:visited {
-    border: 1px solid #ffffff;
+    color:#64cae1;
 }
 
 /* main */
@@ -371,6 +368,8 @@ body {
 /* карточки про разные фичи*/
 .article {
     width: 580px;
+    display: flex;
+    flex-direction: column;
 }
 
 article h3 {
