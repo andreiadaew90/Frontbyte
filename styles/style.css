@@ -40,8 +40,15 @@ body {
     box-sizing: border-box;
 }
 .header {
-    position: absolute;
+    position: fixed;
     width: 100%;
+    z-index: 1;
+}
+.fixed{
+    margin: 0 auto;
+    background-color: #d79ef3;
+    width: 1180px;
+    border-radius: 15px 100px 15px 100px;
 }
 
 .wrapper {
